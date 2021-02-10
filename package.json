@@ -5,10 +5,6 @@
   "description": "Portfolio site for Hamish Williams",
   "repository": "https://github.com/HamishMW/portfolio.git",
   "author": "Hamish Williams <hello@hamishw.com>",
-  "engines": {
-    "npm": "6.14.11",
-    "node": "10.15.3"
-  },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@hamishmw/react-scripts-postcss": "4.0.0-mod1",
