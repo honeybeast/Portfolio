@@ -1,0 +1,33 @@
+__  __  __
+\ \ \ \ \/
+ \ \/\ \
+  \/  \/
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+DESIGNER
+
+Milos Jovanovic
+Hand crafted design & web development
+
+Design tools:
+Figma
+Photoshop
+
+_______________________________________________________________________________
+
+TECHNOLOGY
+
+React
+Three js
+Popmotion
+
+_______________________________________________________________________________
+
+FONTS
+
+Gotham
+Hiragino Kaku Gothic
