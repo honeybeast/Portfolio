@@ -2,9 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "description": "portfolio sample",
-  "engines": {
-    "node": "10.x"
-  },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@hamishmw/react-scripts-postcss": "4.0.0-mod1",
@@ -36,7 +33,7 @@
     "react-router-dom": "5.2.0",
     "react-transition-group": "^4.4.1",
     "three": "^0.124.0",
-    "react-scripts":"1.0.16",
+    "react-scripts": "^3.x"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -51,6 +48,9 @@
     "skipThirdPartyRequests": true,
     "headless": true,
     "crawl": true
+  },
+  "engines": {
+    "node": "10.x"
   },
   "browserslist": {
     "production": [
