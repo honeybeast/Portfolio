@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "portfolio sample",
   "devDependencies": {
-    "@babel/core": "^7.12.13",
+    "@babel/core": "^7.12.16",
     "@hamishmw/react-scripts-postcss": "4.0.0-mod1",
     "@storybook/addon-a11y": "^6.1.10",
     "@storybook/addon-actions": "^6.1.10",
