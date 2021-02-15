@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import classNames from 'classnames';
 import { Transition } from 'react-transition-group';
 import Section from 'components/Section';

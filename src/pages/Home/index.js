@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import Intro from 'pages/Home/Intro';
 import ProjectSummary from 'pages/Home/ProjectSummary';
