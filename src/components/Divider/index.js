@@ -1,3 +1,4 @@
+import React from 'react';
 import classNames from 'classnames';
 import { numToMs } from 'utils/style';
 import './index.css';

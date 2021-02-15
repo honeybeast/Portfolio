@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useRef } from 'react';
 import classNames from 'classnames';
 import { TransitionGroup, Transition } from 'react-transition-group';

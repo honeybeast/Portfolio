@@ -1,3 +1,4 @@
+import React from 'react';
 import { Fragment } from 'react';
 import classNames from 'classnames';
 import { Helmet } from 'react-helmet';

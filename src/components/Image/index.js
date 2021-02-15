@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect, useRef, useCallback, Fragment } from 'react';
 import classNames from 'classnames';
 import { usePrefersReducedMotion, useInViewport } from 'hooks';
