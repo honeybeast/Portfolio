@@ -25,15 +25,16 @@
   },
   "dependencies": {
     "@mdx-js/react": "^1.6.22",
+    "babel-jest": "^26.6.3",
     "classnames": "^2.2.6",
     "popmotion": "^8.7.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-router-dom": "5.2.0",
+    "react-scripts": "^3.x",
     "react-transition-group": "^4.4.1",
-    "three": "^0.124.0",
-    "react-scripts": "^3.x"
+    "three": "^0.124.0"
   },
   "scripts": {
     "start": "react-scripts start",
