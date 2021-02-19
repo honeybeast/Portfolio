@@ -43,8 +43,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-	"heroku-postbuild": "cd src && npm install && npm run build"
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "reactSnap": {
     "skipThirdPartyRequests": true,
