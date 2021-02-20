@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, createContext, useReducer, Fragment } from 'react';
+import React, { lazy, Suspense, useEffect, createContext, useReducer, Fragment } from 'react';
 import { BrowserRouter, Switch, Route, useLocation } from 'react-router-dom';
 import { Transition, TransitionGroup } from 'react-transition-group';
 import classNames from 'classnames';

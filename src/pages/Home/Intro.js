@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect, useState, Fragment } from 'react';
+import React, { Suspense, lazy, useEffect, useState, Fragment } from 'react';
 import classNames from 'classnames';
 import { TransitionGroup, Transition } from 'react-transition-group';
 import DecoderText from 'components/DecoderText';

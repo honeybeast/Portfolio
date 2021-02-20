@@ -401,7 +401,7 @@ const Model = ({
 
     return () => {
       window.removeEventListener('mousemove', onMouseMove);
-      rotationSpring?.stop();
+      rotationSpring.stop();
     };
   }, [isInViewport, reduceMotion, renderFrame]);
 

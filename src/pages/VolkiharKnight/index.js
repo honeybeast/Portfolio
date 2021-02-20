@@ -1,4 +1,4 @@
-import { lazy, Suspense, Fragment, useMemo } from 'react';
+import React, { lazy, Suspense, Fragment, useMemo } from 'react';
 import classNames from 'classnames';
 import { Helmet } from 'react-helmet';
 import Image from 'components/Image';

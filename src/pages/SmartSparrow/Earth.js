@@ -1,4 +1,4 @@
-import {
+import React, {
   useEffect,
   useRef,
   useState,
@@ -172,7 +172,7 @@ const Earth = forwardRef(
       camera.current.lookAt(0, 0, 0);
 
       const handleControlStart = () => {
-        cameraSpring.current?.stop();
+        cameraSpring.current.stop();
         setGrabbing(true);
       };
       const handleControlEnd = () => setGrabbing(false);
@@ -607,9 +607,9 @@ const Earth = forwardRef(
 
       return () => {
         window.removeEventListener('scroll', handleScroll);
-        chunkSpring?.stop();
-        opacitySpring?.stop();
-        cameraSpring.current?.stop();
+        chunkSpring.stop();
+        opacitySpring.stop();
+        cameraSpring.current.stop();
       };
     }, [container, hideMeshes, inViewport, loaded, reduceMotion]);
 

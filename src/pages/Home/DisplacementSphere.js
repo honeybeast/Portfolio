@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import classNames from 'classnames';
 import {
   Vector2,
@@ -40,11 +40,11 @@ const DisplacementSphere = props => {
   const material = useRef();
   const geometry = useRef();
   const sphere = useRef();
-  const tweenRef = useRef();
   const sphereSpring = useRef();
   const prefersReducedMotion = usePrefersReducedMotion();
   const isInViewport = useInViewport(canvasRef);
   const windowSize = useWindowSize();
+  const tweenRef = useRef();
 
   useEffect(() => {
     const { innerWidth, innerHeight } = window;
@@ -134,7 +134,9 @@ const DisplacementSphere = props => {
 
   useEffect(() => {
     const onMouseMove = event => {
+      
       const { rotation } = sphere.current;
+
 
       const position = {
         x: event.clientX / window.innerWidth,
@@ -164,7 +166,7 @@ const DisplacementSphere = props => {
 
     return () => {
       window.removeEventListener('mousemove', onMouseMove);
-      tweenRef.current?.stop();
+      tweenRef.current.stop();
     };
   }, [isInViewport, prefersReducedMotion]);
 
