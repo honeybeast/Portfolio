@@ -35,6 +35,7 @@
     "react-transition-group": "^4.4.1",
     "three": "^0.124.0"
   },
+  "proxy": "http://localhost:4000",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

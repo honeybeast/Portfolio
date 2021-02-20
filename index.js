@@ -69,4 +69,6 @@ app.post('/message', async (req, res) => {
   }
 });
 
+app.listen(process.env.PORT || 4000);
+
 module.exports.handler = serverless(app);
